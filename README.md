@@ -11,3 +11,7 @@ Files:
 4. category-prediction.py - ML model for prediction category of new goods at marketplace based on their names and parameters
 
 5. bitcoin-rate-prediction.py - ML model predicting bitcoin rate based on retrospective data
+
+
+My docker repository is here:
+https://hub.docker.com/repository/docker/camestres/myapp
