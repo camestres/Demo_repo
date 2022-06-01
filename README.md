@@ -2,7 +2,7 @@
 
 Files:
 
-1. SQL tasks - SQL tasks examples
+1. SQL tasks.txt - SQL tasks examples
 
 2. duration-prediction.ipynb - ML model for taxi trip duration prediction based on New-York Taxi dataset
 
