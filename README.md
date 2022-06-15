@@ -12,6 +12,8 @@ Files:
 
 5. bitcoin-rate-prediction.py - ML model predicting bitcoin rate based on retrospective data
 
+6. model_for_prod.py - model example prepared to orchestration setup 
+
 
 My docker repository is here:
 https://hub.docker.com/repository/docker/camestres/myapp
