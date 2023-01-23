@@ -7,4 +7,4 @@ The ML strategy applied to approach this problem is binary classification.
 
 In brief, the main idea behind this project is to build a model with historical data from customers and assign a score of the likelihood of churning.
 
-For this project, we used a [Kaggle dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
+For this project, I used a [Kaggle dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
