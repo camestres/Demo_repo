@@ -10,4 +10,4 @@ The solution approach includes next steps:
 2. Train the baseline + augmantation. RMSE ~ 1.86
 3. Split the data and train two models (4 & 15 landmarks). RMSE ~ 1.71
 
-Data for this project is here [Kaggle dataset](https://www.kaggle.com/competitions/facial-keypoints-detection/data).
+[Kaggle dataset](https://www.kaggle.com/competitions/facial-keypoints-detection/data) for this project.
