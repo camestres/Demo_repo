@@ -29,11 +29,3 @@ Classifying images among 10 classes using transfer learning with Xception model.
 ---------------------------------
 Simple convolutional network for images binary classification using Keras. The best accuracy on validation is 0.88. 
 
-duration-prediction.ipynb
--------------------------
-ML model for taxi trip duration prediction based on New-York Taxi dataset
-
-bitcoin-rate-prediction.py
---------------------------
-ML model predicting bitcoin rate based on retrospective data
-
