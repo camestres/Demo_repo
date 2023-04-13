@@ -1,9 +1,17 @@
-#config
-
+import pandas as pd
+import numpy as np
+import os
+import matplotlib.pyplot as plt
 import torch
+from torch.utils.data import DataLoader, Dataset
+from torch import nn, optim
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import cv2
+from tqdm import tqdm
+from efficientnet_pytorch import EfficientNet
+
+#config
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 LEARNING_RATE = 1e-4
@@ -63,12 +71,6 @@ val_transforms = A.Compose(
 )
 
 #dataset
-
-import pandas as pd
-import numpy as np
-# import config
-import matplotlib.pyplot as plt
-from torch.utils.data import DataLoader, Dataset
 
 class FacialKeypointDataset(Dataset):
     def __init__(self, csv_file, train=True, transform=None):
@@ -147,12 +149,6 @@ if __name__ == "__main__":
 
 # utils
 
-# import torch
-import numpy as np
-import pandas as pd
-# import config
-from tqdm import tqdm
-
 def get_submission(loader, dataset, model_15, model_4):
     model_15.eval()
     model_4.eval()
@@ -211,21 +207,6 @@ def load_checkpoint(checkpoint, model, optimizer, lr):
         param_group["lr"] = lr
 
 #train
-
-import torch
-# from dataset import FacialKeypointDataset
-from torch import nn, optim
-import os
-# import config
-from torch.utils.data import DataLoader
-from tqdm import tqdm
-from efficientnet_pytorch import EfficientNet
-# from utils import (
-#     load_checkpoint,
-#     save_checkpoint,
-#     get_rmse,
-#     get_submission
-# )
 
 def train_one_epoch(loader, model, optimizer, loss_fn, scaler, device):
     losses = []
