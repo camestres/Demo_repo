@@ -13,7 +13,7 @@ Model for customer’s credit rating prediction. Final solution was obtained by 
 **churn-prediction**  
 The project aims to identify customers that are likely to churn or stoping to use a service.
 
-**fasion_multiclass_classification.ipynb** 
+**fasion_multiclass_classification.ipynb**   
 Multiclass image classification with deep learning. TensorFlow and Keras frameworks was implemented on clothing dataset to classify images of t-shirts. Classifying images among 10 classes using transfer learning with Xception model. 
 
 **CIFAR10+resnet20.ipynb**  
