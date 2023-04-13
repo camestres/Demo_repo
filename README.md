@@ -19,5 +19,5 @@ Multiclass image classification with deep learning. TensorFlow and Keras framewo
 **CIFAR10+resnet20.ipynb**  
 Tuning parameters for resnet18 model with CIFAR10 data and 10 classes prediction for images. Final best accuracy on validation is approximately 0.75.
 
-**05-CNN_photo_classification.ipynb** 
+**binary_classification_photo_CNN.ipynb** 
 Simple convolutional network for images binary classification using Keras. The best accuracy on validation is 0.88. 
