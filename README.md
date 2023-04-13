@@ -17,7 +17,7 @@ The project aims to identify customers that are likely to churn or stoping to us
 Tuning parameters for resnet18 model with CIFAR10 data and 10 classes prediction for images. Final best accuracy on validation is approximately 0.75.
 
 **04-neural_networks_dl.ipynb** 
-Classifying images among 10 classes using transfer learning with Xception model. 
+Multiclass image classification with deep learning. TensorFlow and Keras frameworks was implemented on clothing dataset to classify images of t-shirts. Classifying images among 10 classes using transfer learning with Xception model. 
 
 **05-CNN_photo_classification.ipynb** 
 Simple convolutional network for images binary classification using Keras. The best accuracy on validation is 0.88. 
