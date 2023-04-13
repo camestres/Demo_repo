@@ -9,8 +9,8 @@ churn_rfm_analysis
 --------------
 The project for churn prediction, RFM scoring clients segmentation based on depersonalized banking data. 
 
-credit_score_prediction.ipynb 
------------------------------
+credit_score_prediction
+-----------------------
 Model for customer’s credit rating prediction. Final solution was obtained by tuning parameters for three model – Decision Tree, Random Forrest, XGBoost. The best model is XGBoost. Also was evaluated the most important features impacting prediction.
 
 churn-prediction
