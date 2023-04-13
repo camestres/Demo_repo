@@ -1,7 +1,7 @@
 # Projects description
 
 
-**facial-keypoint-detection-CV**  
+**facial-keypoint-detection-CV**    
 Solution for Kaggle competition [Facial Keypoints Detection](https://www.kaggle.com/competitions/facial-keypoints-detection/overview/description). The objective of this task is to predict keypoint positions on face images. The key points for this solution are using augmentation and transfer learning with EfficientNet. 
 
 **churn_rfm_analysis**  
