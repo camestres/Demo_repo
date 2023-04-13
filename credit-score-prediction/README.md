@@ -1,6 +1,7 @@
 Project description
 --------------------
 
+***Project goal***  
 The aim of this poject is to predict whether a bank should lend loan to a client or not. The model developed based on historical banking record.
 
 In this credit scoring classification problem,
@@ -8,6 +9,7 @@ In this credit scoring classification problem,
 * if the model returns 0, this means, the client is very likely to payback the loan and the bank will approve the loan.
 * if the model returns 1, then the client is considered as a defaulter and the bank may not approval the loan.
 
+***Data***  
 The raw dataset is in the file **"CreditScoring.csv"** which contains 4455 rows and 14 columns:
 
 <table>
@@ -29,4 +31,5 @@ The raw dataset is in the file **"CreditScoring.csv"** which contains 4455 rows 
 </tbody>
 </table>
 
+***Results***  
 Final solution was obtained by tuning parameters for three model – Decision Tree, Random Forrest, XGBoost. The best model is XGBoost. Also was evaluated the most important features impacting prediction.
